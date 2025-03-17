@@ -1,2 +1,29 @@
 /.vscode
 /csv_files
+# Ignore system files
+.anaconda/
+.bash_history
+.conda/
+.condarc
+.continuum/
+.gitconfig
+.lesshst
+.vscode/
+AppData/
+Contacts/
+Desktop/
+Documents/
+Downloads/
+Favorites/
+Links/
+Music/
+NTUSER.DAT
+NTUSER.DAT*
+NTUSER.ini
+OneDrive/
+Pictures/
+Saved Games/
+Searches/
+Videos/
+anaconda3/
+battery-report.html

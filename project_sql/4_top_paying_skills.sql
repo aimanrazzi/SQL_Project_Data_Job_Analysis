@@ -15,30 +15,9 @@ INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 WHERE
     job_title_short = 'Data Analyst' 
     AND salary_year_avg IS NOT NULL
-    AND job_location = 'Malaysia'
+    AND job_work_from_home = True
 GROUP BY
     skills
 ORDER BY
     avg_salary DESC
-LIMIT 20;  
-
-/*
-In summary, data analysts in Malaysia who develop specialized skills in tools like 
-Excel, Tableau, and programming languages, coupled with industry-specific knowledge and experience,
-are well-positioned to secure top-paying roles in the field.
-*/
-
-[
-  {
-    "skills": "excel",
-    "avg_salary": "111175.00"
-  },
-  {
-    "skills": "flow",
-    "avg_salary": "111175.00"
-  },
-  {
-    "skills": "tableau",
-    "avg_salary": "111175.00"
-  }
-]
+LIMIT 20;

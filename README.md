@@ -59,7 +59,7 @@ The Data Analyst position at Mantys stands out with a staggering $650,000 annual
 
 **Diverse industry representation:** Tech companies like Meta, Pinterest, and Motional are among the highest-paying employers. Healthcare and finance sectors also offer competitive salaries, with roles from UCLA Healthcare Careers and SmartAsset making the list.
 
-![Top Paying Roles](assests\1_job_title_avg_salary.png)
+![Top Paying Roles](assests/1_job_title_avg_salary.png)
 *Bar graph visualizing the salary for the top 10 salaries for data analysts; ChatGPT generated this graph from my SQL query results*
 
 ### 2. Skills for Top Paying Jobs
@@ -103,7 +103,7 @@ Here's the breakdown of the most demanded skills for the top 10 highest paying d
 
 - Cloud and data pipeline technologies like Azure and Databricks also feature prominently, suggesting demand for cloud-based analytics expertise.
 
-![Top Paying Skills](assests\2_frequency_skills_for_data_analyst.png)
+![Top Paying Skills](assests/2_frequency_skills_for_data_analyst.png)
 *Bar graph visualizing the count of skills for the top 10 paying jobs for data analysts; ChatGPT generated this graph from my SQL query results*
 
 ### 3. In-Demand Skills for Data Analysts
